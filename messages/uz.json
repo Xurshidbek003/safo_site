@@ -1,0 +1,531 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "about": "Biz haqimizda",
+    "contact": "Bog‘lanish",
+    "orders": "Buyurtmalarim",
+    "cart": "Savatcha",
+    "contactButton": "Aloqa",
+    "cabinet": "Kabinet"
+  },
+  "brand_values": {
+    "badge": "Brand Identity",
+    "heading_line1": "Har tomchida",
+    "heading_line2": "seziladigan premium",
+    "heading_line3": "qadriyatlar",
+    "description": "Safo shunchaki ichimlik suvi emas. U poklik, yengillik, ishonch va zamonaviy premium uslubni bir joyga jamlaydigan brend tajribasidir.",
+    "stat_values": "Asosiy qadriyat",
+    "stat_premium": "Premium hissiyot",
+    "pure_balance": {
+      "eyebrow": "Pure Balance",
+      "title": "Soflik va yengillik",
+      "description": "Safo har kunlik ichimlik suvi sifatida toza ta'm, yengil hissiyot va salqinlikni birlashtiradi."
+    },
+    "daily_comfort": {
+      "eyebrow": "Daily Comfort",
+      "title": "Kundalik qulay foydalanish",
+      "description": "Uy, ofis va kundalik hayot uchun mos hajmlar va qulay qadoq formatlari bilan yaratilgan."
+    },
+    "premium_identity": {
+      "eyebrow": "Premium Identity",
+      "title": "Zamonaviy premium ko'rinish",
+      "description": "Minimal va chiroyli dizayn Safo'ni oddiy suv emas, balki didli brend tajribasiga aylantiradi."
+    },
+    "trusted_quality": {
+      "eyebrow": "Trusted Quality",
+      "title": "Ishonchli sifat hissi",
+      "description": "Har bir mahsulotida poklik, barqarorlik va ishonch hissini yetkazadigan zamonaviy yondashuv."
+    }
+  },
+  "still_water": {
+    "badge": "Core Collection",
+    "aria_prev": "Oldingi slayd",
+    "aria_next": "Keyingi slayd",
+    "aria_goto": "{number}-slaydga o'tish",
+    "slide_1": {
+      "title": "STILL WATER",
+      "text": "Tabiat tomonidan himoyalangan buloq suvining mutlaq sofligi.",
+      "size": "5,0 l"
+    },
+    "slide_2": {
+      "title": "STILL WATER",
+      "text": "Muvozanatli minerallar va toza yangilovchi ta'm bilan toza tabiiy suv.",
+      "size": "1,0 l"
+    },
+    "slide_3": {
+      "title": "STILL WATER",
+      "text": "Xuddi shu toza xususiyatga ega kundalik foydalanish uchun qulay premium format.",
+      "size": "0,5 l"
+    },
+    "slide_4": {
+      "title": "STILL WATER",
+      "text": "Tabiat tomonidan himoyalangan buloq suvining mutlaq sofligi.",
+      "size": "5,0 l"
+    },
+    "slide_5": {
+      "title": "STILL WATER",
+      "text": "Muvozanatli minerallar va toza yangilovchi ta'm bilan toza tabiiy suv.",
+      "size": "1,0 l"
+    },
+    "slide_6": {
+      "title": "STILL WATER",
+      "text": "Xuddi shu toza xususiyatga ega kundalik foydalanish uchun qulay premium format.",
+      "size": "0,5 l"
+    }
+  },
+  "about_section": {
+    "badge": "About Safo",
+    "heading_line1": "Safo — bu shunchaki suv emas,",
+    "heading_line2": "balki kundalik premium hissiyot",
+    "description": "Safo poklik, yengillik va zamonaviy minimal uslubni birlashtirgan suv brendi. Har bir mahsulotida tabiiy tozalik, ishonchli sifat va premium ko'rinish uyg'unlashadi.",
+    "stat_purity": "Soflik hissi",
+    "stat_daily": "Premium use",
+    "note_label": "Brand Note",
+    "note_text": "Safo dizaynida ortiqcha bezak emas, balki chuqurlik, salqinlik va muvozanat muhim. Shu sabab saytning har bir qismi ham aynan shu hissiyotni berishi kerak.",
+    "cta_button": "Brend haqida"
+  },
+  "footer": {
+    "brand_desc": "Safo — poklik, yengillik va zamonaviy premium hissiyotni birlashtirgan ichimlik suvi brendi. Har kun uchun salqin va ishonchli tanlov.",
+    "nav_title": "Navigation",
+    "nav": {
+      "home": "Bosh sahifa",
+      "products": "Mahsulotlar",
+      "about": "Biz haqimizda",
+      "collection": "Kolleksiya",
+      "contact": "Bog'lanish"
+    },
+    "contact_title": "Aloqa",
+    "contact_address": "Toshkent, O'zbekiston\nSafo premium water",
+    "note_title": "Brand Note",
+    "note_text": "Safo bilan har kunlik poklik, yengillik va premium hayot tarzini his qiling.",
+    "note_cta": "Bog'lanish",
+    "copyright": "© 2026 Safo. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  },
+  "contact": {
+    "badge": "Bog'lanish",
+    "info": {
+      "eyebrow": "Aloqa ma'lumotlari",
+      "title": "Biz bilan bog'laning",
+      "phone_label": "Telefon",
+      "email_label": "Email",
+      "address_label": "Manzil",
+      "address_value": "Toshkent shahri, Yunusobod tumani",
+      "hours_label": "Ish vaqti",
+      "hours_value": "Har kuni: 09:00 — 21:00"
+    },
+    "quick": {
+      "title": "Tezkor aloqa",
+      "desc": "Ma'lumotlaringizni qoldiring, imkon qadar tez siz bilan bog'lanamiz."
+    },
+    "form": {
+      "eyebrow": "Murojaat formasi",
+      "title": "Xabar yuborish",
+      "desc": "Siz bilan bog'lanishimiz uchun quyidagi ma'lumotlarni to'ldiring.",
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "email": "Email",
+      "subject": "Mavzu",
+      "message": "Xabaringizni yozing",
+      "note": "Yuborilgan ma'lumotlar ko'rib chiqiladi.",
+      "submit": "Xabar yuborish"
+    },
+    "modal": {
+      "title": "Ma'lumotlaringiz qabul qilindi",
+      "desc": "Siz bilan bog'lanishimiz uchun yuborgan ma'lumotlaringiz qabul qilindi. Tez orada siz bilan aloqaga chiqamiz.",
+      "cta": "Tushunarli"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Biz haqimizda",
+      "heading_line1": "Safo — kundalik hayot uchun",
+      "heading_line2": "toza, ishonchli va premium tanlov",
+      "desc": "Safo zamonaviy dizayn, ishonchli sifat va kundalik qulaylikni birlashtiruvchi suv brendidir. Bizning maqsadimiz oddiy mahsulot taqdim etish emas, balki foydalanuvchi uchun toza va premium tajriba yaratishdir.",
+      "cta_products": "Mahsulotlarni ko'rish",
+      "cta_contact": "Bog'lanish"
+    },
+    "hero_tags": [
+      "Premium yondashuv",
+      "Kundalik iste'mol",
+      "Ishonchli sifat"
+    ],
+    "stats": [
+      {
+        "value": "10K+",
+        "label": "Mamnun mijozlar"
+      },
+      {
+        "value": "24/7",
+        "label": "Buyurtma qabul qilish"
+      },
+      {
+        "value": "100%",
+        "label": "Tozalik va ishonch"
+      },
+      {
+        "value": "Premium",
+        "label": "Brend yondashuvi"
+      }
+    ],
+    "story": {
+      "eyebrow": "Bizning hikoya",
+      "title": "Nima uchun Safo?",
+      "paragraphs": [
+        "Safo brendi oddiy mahsulotni premium tajribaga aylantirish g'oyasi asosida shakllangan. Biz uchun mahsulotning o'zi bilan bir qatorda uning ko'rinishi, yetkazilishi va mijozga qoldiradigan taassuroti ham muhim.",
+        "Shu sababli Safo'da minimalistik estetika, toza vizual til va foydalanuvchi uchun tushunarli qulaylik birlashadi. Har bir detal ishonch, sifat va zamonaviylik hissini berishi kerak.",
+        "Bizning qarashimiz — kundalik suv iste'molini ham premium darajadagi xizmat va brend tajribasi bilan boyitish."
+      ]
+    },
+    "values_section": {
+      "eyebrow": "Qadriyatlar",
+      "title": "Biz nimaga tayanamiz"
+    },
+    "values": [
+      {
+        "title": "Soflik",
+        "text": "Har bir mahsulotimizda tozalik, yengillik va kundalik iste'mol uchun qulaylikni birinchi o'ringa qo'yamiz."
+      },
+      {
+        "title": "Ishonch",
+        "text": "Safo foydalanuvchi uchun sifat, barqarorlik va ishonch hissini beradigan premium yondashuvni taklif qiladi."
+      },
+      {
+        "title": "Premium uslub",
+        "text": "Minimalistik ko'rinish, zamonaviy taqdimot va estetik detallarga e'tibor bizning asosiy farqimizdir."
+      }
+    ],
+    "features_section": {
+      "eyebrow": "Nega biz",
+      "title": "Safo'ni ajratib turadigan jihatlar"
+    },
+    "features": [
+      {
+        "title": "Sifatli yondashuv",
+        "text": "Har bir mahsulot dizayni va taqdimoti brend ishonchini kuchaytirish uchun o'ylangan."
+      },
+      {
+        "title": "Mijozga yaqinlik",
+        "text": "Biz mahsulotni emas, qulay va ishonchli tajribani taklif qilishga intilamiz."
+      },
+      {
+        "title": "Qulay yetkazib berish",
+        "text": "Safo kundalik hayotga mos, tez va tartibli xizmat ko'rsatishni maqsad qiladi."
+      }
+    ],
+    "cta": {
+      "eyebrow": "Keyingi qadam",
+      "title": "Safo bilan premium tajribani bugunoq boshlang",
+      "desc": "Mahsulotlarimiz bilan tanishing va kundalik hayotingizga toza, ishonchli hamda zamonaviy yondashuv olib kiring.",
+      "btn_products": "Mahsulotlar",
+      "btn_contact": "Aloqa"
+    }
+  },
+  "orders_header": {
+    "eyebrow": "Buyurtmalar",
+    "title": "Buyurtmalarim",
+    "desc": "Buyurtmalaringiz holatini kuzating va yetkazib berish jarayonini shu yerda ko'ring.",
+    "badge": "Faol buyurtmalar",
+    "in_progress": "Jarayonda",
+    "on_the_way": "Yo'lda",
+    "delivered": "Yetkazilgan",
+    "total": "Jami"
+  },
+  "order_card": {
+    "order_number": "Buyurtma #{id}",
+    "total": "Jami",
+    "quantity": "{count} dona"
+  },
+  "order_status": {
+    "cancelled": "Buyurtma bekor qilingan",
+    "current": "Joriy holat",
+    "steps": {
+      "accepted": "Qabul qilindi",
+      "preparing": "Tayyorlanmoqda",
+      "on_the_way": "Yo'lda",
+      "delivered": "Yetkazib berildi"
+    }
+  },
+  "cart_page": {
+    "badge": "Savatcha",
+    "desc": "Tanlangan mahsulotlarni ko'rib chiqing, sonini o'zgartiring va buyurtmangizni shu sahifaning o'zida yakunlang."
+  },
+  "cart_items": {
+    "empty_title": "Savat bo'sh",
+    "empty_desc": "Hozircha savatchaga mahsulot qo'shilmagan. Mahsulotlarni tanlab, buyurtmani boshlashingiz mumkin.",
+    "total": "Jami",
+    "aria_decrease": "{title} sonini kamaytirish",
+    "aria_increase": "{title} sonini oshirish",
+    "aria_remove": "{title} ni savatdan olib tashlash"
+  },
+  "checkout": {
+    "title": "Buyurtma",
+    "subtitle": "Hisob va ma'lumotlar",
+    "address_missing": "Manzil kiritilmagan",
+    "not_entered": "Kiritilmagan",
+    "submit": "Buyurtma berish",
+    "summary": {
+      "products": "Mahsulotlar",
+      "delivery": "Yetkazib berish",
+      "free": "Bepul",
+      "service": "Xizmat",
+      "total": "JAMI"
+    },
+    "badges": {
+      "fast_delivery": "Tez yetkazish",
+      "trusted": "Ishonchli"
+    },
+    "form": {
+      "name": "Ismingiz",
+      "phone_placeholder": "73-854-67",
+      "address": "Manzil"
+    },
+    "modal": {
+      "ok": "Tushunarli",
+      "empty_cart": {
+        "title": "Savat bo'sh",
+        "desc": "Siz hali savatga mahsulot qo'shmadingiz."
+      },
+      "missing_contact": {
+        "title": "Ma'lumotlar yetarli emas",
+        "desc": "Siz bilan bog'lanishimiz uchun ismingiz va telefon raqamingizni kiriting."
+      },
+      "confirm": {
+        "title": "Buyurtma tasdiqlash",
+        "desc": "Ma'lumotlaringizni tekshirib chiqing.",
+        "field_name": "Ism",
+        "field_phone": "Telefon",
+        "field_address": "Manzil",
+        "field_items": "Mahsulotlar",
+        "field_total": "Jami",
+        "cancel": "Bekor qilish",
+        "approve": "Tasdiqlash"
+      },
+      "success": {
+        "title": "Buyurtma tasdiqlandi",
+        "desc": "Buyurtmangiz qabul qilindi.",
+        "body": "Buyurtmangiz muvaffaqiyatli tasdiqlandi.",
+        "hint": "Tez orada yetkazib beramiz 🚚",
+        "close": "Yopish"
+      }
+    }
+  },
+  "hero": {
+    "badge": "PREMIUM NATURAL WATER",
+    "title1": "Soflikni",
+    "title2": "har kuni his qiling",
+    "description1": "Safo — poklik, yengillik va zamonaviy premium brend hissini birlashtirgan ichimlik suvi tajribasi.",
+    "description2": "Toza ko‘rinish, ishonchli sifat va kundalik yangilik bir joyda.",
+    "primaryButton": "Mahsulotlar",
+    "secondaryButton": "Biz haqimizda",
+    "source": "NATURAL SOURCE",
+    "stat1Title": "100%",
+    "stat1Text": "PURE WATER",
+    "stat2Title": "Fresh",
+    "stat2Text": "DAILY USE",
+    "stat3Title": "Premium",
+    "stat3Text": "IDENTITY"
+  },
+  "products": {
+    "safo_still_05l": {
+      "title": "Safo Still Water",
+      "subtitle": "Kundalik tozalik",
+      "description": "Toza va yengil ta’mga ega kundalik ichimlik suvi."
+    },
+    "safo_still_1l": {
+      "title": "Safo Still Water",
+      "subtitle": "Muvozanatli tozalik",
+      "description": "Kundalik foydalanish uchun qulay suv."
+    },
+    "safo_family_5l": {
+      "title": "Safo Family Pack",
+      "subtitle": "Uy va ofis",
+      "description": "Katta hajmli ichimlik suvi."
+    },
+    "safo_family_10l": {
+      "title": "Safo Family Large",
+      "subtitle": "Katta oilalar uchun",
+      "description": "10 litrli iqtisodiy variant."
+    },
+    "safo_premium_1l": {
+      "title": "Safo Premium",
+      "subtitle": "Tabiiy manba suvi",
+      "description": "Premium sifatdagi toza suv."
+    },
+    "safo_sport_07l": {
+      "title": "Safo Sport",
+      "subtitle": "Faol hayot uchun",
+      "description": "Sport bilan shug‘ullanuvchilar uchun."
+    },
+    "badges": {
+      "top": "Top",
+      "popular": "Mashhur",
+      "best_value": "Eng yaxshi",
+      "family": "Oila",
+      "premium": "Premium",
+      "sport": "Sport"
+    }
+  },
+  "featured": {
+    "badge": "Featured collection",
+    "title1": "Mashhur va ko‘p",
+    "title2": "buyurtma qilinadigan suvlar",
+    "prevAria": "Oldingi mahsulotlar",
+    "nextAria": "Keyingi mahsulotlar",
+    "defaultBadge": "Featured",
+    "currency": "UZS",
+    "addToCart": "Savatga qo‘shish",
+    "toastTitle": "Mahsulot savatchaga qo‘shildi",
+    "toastDescription": "{title} ({volume}) savatchaga qo‘shildi.",
+    "toastAction": "Savatcha"
+  },
+  "products_page": {
+    "title": "Suvlar Ro'yhati",
+    "subtitle": "Eng mos mahsulotlarni qidiring va ehtiyojingiz uchun tanlang.",
+    "search_placeholder": "Mahsulot nomi yoki tavsif bo'yicha qidiring...",
+    "filter_title": "Filtrlar",
+    "filter_clear": "Tozalash",
+    "filter_category": "Kategoriya",
+    "filter_volume": "Hajm",
+    "filter_price": "Narx oralig'i",
+    "filter_price_min": "Minimal narx",
+    "filter_price_max": "Maksimal narx",
+    "filter_quick": "Tezkor filterlar",
+    "filter_apply": "Qo'llash",
+    "filter_reset": "Reset",
+    "sort_label": "Saralash",
+    "sort_popular": "Mashhurligi bo'yicha",
+    "sort_price_asc": "Narx: arzonidan",
+    "sort_price_desc": "Narx: qimmatidan",
+    "sort_newest": "Yangi mahsulotlar",
+    "results_label": "Natijalar",
+    "results_count": "{count} ta mahsulot topildi",
+    "vol_all": "Hammasi",
+    "empty_title": "Mahsulot topilmadi",
+    "empty_desc": "Tanlangan filterlarga mos mahsulot hozircha topilmadi. Filterlarni tozalab qayta urinib ko'ring.",
+    "empty_btn": "Filterlarni tozalash",
+    "card_details": "Batafsil",
+    "card_add": "Savatga qo'shish",
+    "card_add_short": "Savatga",
+    "card_per_unit": "/ dona",
+    "card_tag1": "Toza ta'm",
+    "card_tag2": "Kundalik iste'mol",
+    "card_tag3": "Premium sifat",
+    "toast_title": "Mahsulot savatchaga qo'shildi",
+    "toast_desc": "{title} ({volume}) savatchaga qo'shildi.",
+    "toast_action": "Savatcha"
+  },
+  "product_details": {
+    "breadcrumb_home": "Bosh sahifa",
+    "breadcrumb_products": "Mahsulotlar",
+    "price_label": "Narx",
+    "add_to_cart": "Savatga qo'shish",
+    "back_to_products": "Orqaga",
+    "info_eyebrow": "Asosiy ma'lumotlar",
+    "info_title": "Mahsulot tafsilotlari",
+    "info_subtitle": "Mahsulotning asosiy ko'rsatkichlari va muhim ma'lumotlari.",
+    "info_name": "Mahsulot nomi",
+    "info_price": "Narx",
+    "info_volume": "Hajm",
+    "info_stock": "Holati",
+    "info_in_stock": "Mavjud",
+    "info_out_stock": "Tugagan",
+    "info_description": "Tavsif",
+    "highlights_eyebrow": "Premium xususiyatlar",
+    "highlights_title": "Nega aynan {title}?",
+    "highlights_subtitle": "Bu mahsulot Safo brendining premium yondashuvi va kundalik foydalanish qulayligini birlashtiradi.",
+    "highlight1_title": "Soflik hissi",
+    "highlight1_text": "Har bir ichimlikda yengillik, tozalik va premium suv tajribasi.",
+    "highlight2_title": "Ishonchli sifat",
+    "highlight2_text": "Kundalik foydalanishda barqaror va foydalanuvchi uchun ishonchli format.",
+    "highlight3_title": "Zamonaviy ko'rinish",
+    "highlight3_text": "Minimalistik qadoq va premium brend xarakterini kuchaytiruvchi uslub."
+  },
+  "product_data": {
+    "p1": {
+      "title": "Safo 0.5L",
+      "subtitle": "Kundalik toza suv",
+      "description": "Kundalik iste'mol uchun qulay, ixcham va premium suv formati.",
+      "badge": "Mashhur"
+    },
+    "p2": {
+      "title": "Safo 1L",
+      "subtitle": "Muvozanatli mineral ta'm",
+      "description": "Toza ta'm va muvozanatli tarkibga ega kundalik foydalanish uchun suv.",
+      "badge": "Yangi"
+    },
+    "p3": {
+      "title": "Safo 5L",
+      "subtitle": "Oilaviy kundalik tanlov",
+      "description": "Uy va ofis uchun mos, toza va ishonchli kundalik suv yechimi.",
+      "badge": "Klassik"
+    },
+    "p4": {
+      "title": "Safo 10L",
+      "subtitle": "Oilaviy hajmli suv",
+      "description": "Oilaviy foydalanish va katta hajmdagi ehtiyojlar uchun qulay premium suv.",
+      "badge": "Oilaviy"
+    }
+  },
+  "cabinet": {
+    "nav_profile": "Profil",
+    "nav_orders": "Buyurtmalar",
+    "nav_settings": "Sozlamalar",
+    "nav_addresses": "Manzillar",
+    "hero_eyebrow": "Shaxsiy kabinet",
+    "hero_title": "Xush kelibsiz",
+    "hero_subtitle": "Profilingizni boshqaring, buyurtmalaringizni kuzating va sozlamalarni o'zgartiring.",
+    "hero_badge": "Premium foydalanuvchi",
+    "stat_orders": "Buyurtmalar",
+    "stat_cart": "Savatchada",
+    "stat_saved": "Saqlangan",
+    "stat_member_since": "A'zo bo'lgan",
+    "profile_title": "Shaxsiy ma'lumotlar",
+    "profile_subtitle": "Profilingizni to'ldiring va yangilang.",
+    "profile_name": "Ism va familiya",
+    "profile_name_placeholder": "Ismingizni kiriting",
+    "profile_phone": "Telefon raqam",
+    "profile_phone_placeholder": "+998 XX XXX XX XX",
+    "profile_email": "Email",
+    "profile_email_placeholder": "email@example.com",
+    "profile_city": "Shahar",
+    "profile_city_placeholder": "Toshkent",
+    "profile_save": "Saqlash",
+    "profile_saved": "Saqlandi",
+    "profile_avatar_change": "Rasmni o'zgartirish",
+    "addresses_title": "Yetkazib berish manzillari",
+    "addresses_subtitle": "Tez buyurtma berish uchun manzillaringizni saqlang.",
+    "address_add": "Yangi manzil qo'shish",
+    "address_default": "Asosiy",
+    "address_set_default": "Asosiy qilish",
+    "address_delete": "O'chirish",
+    "address_empty": "Hech qanday manzil yo'q",
+    "address_empty_desc": "Tez buyurtma berish uchun manzil qo'shing.",
+    "address_label": "Manzil nomi",
+    "address_label_placeholder": "Uy, Ofis...",
+    "address_full": "To'liq manzil",
+    "address_full_placeholder": "Ko'cha, uy raqami...",
+    "address_save": "Manzilni saqlash",
+    "address_cancel": "Bekor qilish",
+    "settings_title": "Sozlamalar",
+    "settings_subtitle": "Bildirishnoma va sozlamalar.",
+    "settings_notifications": "Bildirishnomalar",
+    "settings_notif_order": "Buyurtma holati haqida",
+    "settings_notif_promo": "Chegirmalar va aksiyalar",
+    "settings_notif_news": "Yangiliklar va mahsulotlar",
+    "settings_language": "Interfeys tili",
+    "settings_theme": "Mavzu",
+    "settings_theme_dark": "Qorong'u",
+    "settings_clear_data": "Ma'lumotlarni tozalash",
+    "settings_clear_confirm": "Hamma ma'lumotlar o'chirilsin?",
+    "settings_logout": "Chiqish",
+    "settings_danger": "Xavfli zona",
+    "orders_title": "Buyurtmalar tarixi",
+    "orders_subtitle": "Barcha buyurtmalaringiz bu yerda.",
+    "orders_empty": "Hali buyurtma yo'q",
+    "orders_empty_desc": "Mahsulotlarni tanlang va birinchi buyurtmangizni bering.",
+    "orders_go_shop": "Xarid qilish"
+  }
+}
