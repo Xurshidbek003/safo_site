@@ -1,3 +1,5 @@
-export default function Page() {
-  return <div>OK</div>;
+import { redirect } from 'next/navigation';
+
+export default function RootPage() {
+  redirect('/uz');
 }
