@@ -1,4 +1,4 @@
-type ProductCategory = "all" | "still" | "sparkling" | "bundle";
+type ProductCategory = "all" | "still" | "sparkling" | "filter" | "pump" | "bundle";
 type ProductSortOption = "popular" | "price-asc" | "price-desc" | "newest";
 
 type ProductFiltersProps = {

@@ -10,7 +10,7 @@ import ProductFiltersSidebar from "@/features/products/ui/product-filters-sideba
 import ProductsGrid from "@/features/products/ui/products-grid";
 import ProductsPageHeader from "@/features/products/ui/products-page-hero";
 
-type ProductCategory = "all" | "still" | "sparkling" | "bundle";
+type ProductCategory = "all" | "still" | "sparkling" | "filter" | "pump" | "bundle";
 type ProductSortOption = "popular" | "price-asc" | "price-desc" | "newest";
 type ProductsViewMode = "list" | "grid";
 
@@ -43,9 +43,11 @@ export default function ProductsPage() {
 
   const categories: { label: string; value: ProductCategory }[] = [
     { label: t("cat_all"), value: "all" },
-    { label: "Still Water", value: "still" },
-    { label: "Sparkling", value: "sparkling" },
-    { label: "Bundle", value: "bundle" },
+    { label: "Suv", value: "still" },
+    { label: "Gazlangan", value: "sparkling" },
+    { label: "Filtrlar", value: "filter" },
+    { label: "Nasoslar", value: "pump" },
+    { label: "To'plam", value: "bundle" },
   ];
 
   const volumes = ["all", "0.5L", "1L", "5L", "10L"];

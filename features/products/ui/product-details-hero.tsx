@@ -1,6 +1,7 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
-import { ChevronRight, ShoppingBag } from "lucide-react";
+import { ChevronRight, ShoppingBag, Minus, Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Product } from "../model/types";
@@ -14,6 +15,7 @@ type ProductDetailsHeroProps = {
 export default function ProductDetailsHero({ product }: ProductDetailsHeroProps) {
   const t = useTranslations("product_details");
   const addItem = useCartStore((state) => state.addItem);
+  const [qty, setQty] = useState(1);
 
   const productTitle = product.title;
   const productSubtitle = product.subtitle;
@@ -21,15 +23,18 @@ export default function ProductDetailsHero({ product }: ProductDetailsHeroProps)
   const productBadge = product.badge ?? "";
 
   const handleAddToCart = () => {
-    addItem({
-      id: product.id,
-      slug: product.slug,
-      title: productTitle,
-      volume: product.volume,
-      image: product.image,
-      price: product.price,
-      currency: product.currency as "UZS"
-    });
+    addItem(
+      {
+        id: product.id,
+        slug: product.slug,
+        title: productTitle,
+        volume: product.volume,
+        image: product.image,
+        price: product.price,
+        currency: product.currency as "UZS",
+      },
+      qty
+    );
   };
 
   return (
@@ -80,20 +85,51 @@ export default function ProductDetailsHero({ product }: ProductDetailsHeroProps)
               </div>
             </div>
 
-            <div className="flex gap-3">
-              <button
-                onClick={handleAddToCart}
-                className="inline-flex h-12 cursor-pointer items-center justify-center gap-2 rounded-[16px] bg-cyan-700 px-7 text-[14px] font-semibold text-white transition-all hover:bg-cyan-600"
-              >
-                <ShoppingBag size={16} />
-                {t("add_to_cart")}
-              </button>
-              <Link
-                href="/products"
-                className="inline-flex h-12 items-center justify-center rounded-[16px] border border-white/10 px-6 text-[14px] text-white/80 transition hover:bg-white/[0.05]"
-              >
-                {t("back_to_products")}
-              </Link>
+            <div className="flex flex-col items-start gap-3 sm:items-end">
+              <div className="flex items-center gap-1 rounded-[12px] border border-white/10 bg-white/[0.03] p-1">
+                <button
+                  type="button"
+                  onClick={() => setQty((q) => Math.max(1, q - 1))}
+                  aria-label="Kamaytirish"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-[9px] text-white/65 transition hover:bg-white/[0.06] hover:text-white"
+                >
+                  <Minus size={15} />
+                </button>
+                <input
+                  type="number"
+                  min={1}
+                  value={qty}
+                  onChange={(e) => {
+                    const v = parseInt(e.target.value, 10);
+                    setQty(Number.isNaN(v) || v < 1 ? 1 : v);
+                  }}
+                  aria-label="Miqdor"
+                  className="w-14 [appearance:textfield] bg-transparent text-center text-[14px] font-semibold text-white outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+                />
+                <button
+                  type="button"
+                  onClick={() => setQty((q) => q + 1)}
+                  aria-label="Oshirish"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-[9px] text-white/65 transition hover:bg-white/[0.06] hover:text-white"
+                >
+                  <Plus size={15} />
+                </button>
+              </div>
+              <div className="flex gap-3">
+                <button
+                  onClick={handleAddToCart}
+                  className="inline-flex h-12 cursor-pointer items-center justify-center gap-2 rounded-[16px] bg-cyan-700 px-7 text-[14px] font-semibold text-white transition-all hover:bg-cyan-600"
+                >
+                  <ShoppingBag size={16} />
+                  {t("add_to_cart")}
+                </button>
+                <Link
+                  href="/products"
+                  className="inline-flex h-12 items-center justify-center rounded-[16px] border border-white/10 px-6 text-[14px] text-white/80 transition hover:bg-white/[0.05]"
+                >
+                  {t("back_to_products")}
+                </Link>
+              </div>
             </div>
           </div>
         </div>

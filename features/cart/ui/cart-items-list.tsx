@@ -13,6 +13,7 @@ export default function CartItemsList() {
   const removeItem = useCartStore((state) => state.removeItem);
   const increase = useCartStore((state) => state.increaseQuantity);
   const decrease = useCartStore((state) => state.decreaseQuantity);
+  const setQuantity = useCartStore((state) => state.setQuantity);
 
   if (items.length === 0) {
     return (
@@ -84,9 +85,21 @@ export default function CartItemsList() {
                   <Minus size={14} />
                 </button>
 
-                <span className="min-w-[26px] text-center text-[13px] font-semibold text-white">
-                  {item.quantity}
-                </span>
+                <input
+                  type="number"
+                  min={1}
+                  value={item.quantity}
+                  onChange={(e) => {
+                    const v = parseInt(e.target.value, 10);
+                    setQuantity(item.id, Number.isNaN(v) ? 1 : v);
+                  }}
+                  onBlur={(e) => {
+                    const v = parseInt(e.target.value, 10);
+                    if (Number.isNaN(v) || v < 1) setQuantity(item.id, 1);
+                  }}
+                  aria-label={`${item.title} miqdori`}
+                  className="w-12 [appearance:textfield] bg-transparent text-center text-[13px] font-semibold text-white outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+                />
 
                 <button
                   onClick={() => increase(item.id)}

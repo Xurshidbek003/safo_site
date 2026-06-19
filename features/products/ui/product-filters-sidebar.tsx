@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 
-type ProductCategory = "all" | "still" | "sparkling" | "bundle";
+type ProductCategory = "all" | "still" | "sparkling" | "filter" | "pump" | "bundle";
 
 type ProductFiltersSidebarProps = {
   category: ProductCategory;
