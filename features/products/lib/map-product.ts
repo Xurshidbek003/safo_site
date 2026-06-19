@@ -1,7 +1,14 @@
 import { Product } from "../model/types";
 
-// Backenddagi mahsulot rasmi bo'sh bo'lsa, shu rasm ishlatiladi
-const FALLBACK_IMAGE = "/images/hero/bottle-big-new.png";
+// Backenddagi mahsulot rasmi bo'sh bo'lganda — kategoriya bo'yicha mos zaxira rasm
+const FALLBACK_BY_CATEGORY: Record<string, string> = {
+  still: "/images/hero/bottle-big-new.png",
+  sparkling: "/images/hero/bottle-glass.png",
+  filter: "/images/products/water-filter.png",
+  pump: "/images/products/water-pump.webp",
+  bundle: "/images/products/bundle.svg",
+};
+const DEFAULT_IMAGE = "/images/hero/bottle-big-new.png";
 
 export type BackendProduct = {
   id: number;
@@ -20,6 +27,8 @@ export type BackendProduct = {
 };
 
 export function mapProduct(p: BackendProduct): Product {
+  const category = p.category || "still";
+  const fallback = FALLBACK_BY_CATEGORY[category] || DEFAULT_IMAGE;
   return {
     id: p.id,
     slug: p.slug,
@@ -27,12 +36,12 @@ export function mapProduct(p: BackendProduct): Product {
     subtitle: p.subtitle ?? "",
     description: p.description ?? "",
     badge: p.badge ?? undefined,
-    translationKey: "", // backend mahsulotlarida tarjima kaliti yo'q — matn backenddan olinadi
+    translationKey: "",
     price: p.price,
     currency: p.currency || "UZS",
     volume: p.volume ?? "",
-    category: p.category || "still",
-    image: p.image && p.image.trim() ? p.image : FALLBACK_IMAGE,
+    category,
+    image: p.image && p.image.trim() ? p.image : fallback,
     inStock: p.in_stock,
     featured: p.featured,
   };

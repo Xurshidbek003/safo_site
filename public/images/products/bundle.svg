@@ -1,0 +1,53 @@
+<svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Suv va nasos to'plami">
+  <defs>
+    <linearGradient id="bundleBottle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bae6fd"/>
+      <stop offset="0.45" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="bundleWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="bundlePump" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="bundleGlow" cx="0.5" cy="0.45" r="0.62">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="108" cy="284" rx="72" ry="13" fill="#000000" opacity="0.22"/>
+  <ellipse cx="108" cy="160" rx="104" ry="124" fill="url(#bundleGlow)"/>
+
+  <!-- 19L bottle body -->
+  <path d="M58 150 Q58 120 88 116 L88 104 Q88 98 96 98 L120 98 Q128 98 128 104 L128 116 Q158 120 158 150 L158 256 Q158 274 140 274 L76 274 Q58 274 58 256 Z" fill="url(#bundleBottle)" stroke="#e0f2fe" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- Water inside -->
+  <path d="M64 180 L152 180 L152 254 Q152 268 138 268 L78 268 Q64 268 64 254 Z" fill="url(#bundleWater)" opacity="0.85"/>
+
+  <!-- Glossy highlight -->
+  <rect x="74" y="132" width="12" height="120" rx="6" fill="#ffffff" opacity="0.3"/>
+
+  <!-- Bottle neck + cap -->
+  <rect x="92" y="86" width="32" height="16" rx="4" fill="#bae6fd"/>
+
+  <!-- Liters label -->
+  <text x="108" y="222" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#f0f9ff" text-anchor="middle" opacity="0.9">19L</text>
+
+  <!-- Pump on top -->
+  <g>
+    <ellipse cx="108" cy="86" rx="24" ry="6" fill="#7dd3fc"/>
+    <rect x="100" y="40" width="16" height="48" rx="7" fill="url(#bundlePump)" stroke="#e0f2fe" stroke-opacity="0.4" stroke-width="1.5"/>
+    <rect x="86" y="26" width="40" height="14" rx="7" fill="url(#bundlePump)"/>
+    <path d="M114 52 Q140 52 140 74 L140 84" fill="none" stroke="#38bdf8" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- Combo sparkle -->
+  <g fill="#a5f3fc">
+    <path d="M176 120 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 Z"/>
+    <circle cx="172" cy="150" r="3"/>
+  </g>
+</svg>
